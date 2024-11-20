@@ -1,0 +1,51 @@
+.size {
+    font-size: 40px;
+    color: white;
+}
+
+.color {
+    color: white;
+    text-decoration: none;
+}
+
+.basbg {
+    background-color: #121212;
+}
+
+.felx {
+    display: flex;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cards {
+    width: 69vw;
+}
+
+.top {
+    padding: 15px;
+    width: 69vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+}
+
+.top .f1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wrap {
+    text-wrap: wrap;
+}
+
+p {
+    font-size: 12px;
+}

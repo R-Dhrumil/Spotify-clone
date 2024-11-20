@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <object data="image.svg" type="image/svg+xml"></object>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head_container">
+            <div class="log">
+                <!-- if you want any compony logo use fab fa-compony name -->
+                <i class="fab fa-spotify size"></i>
+            </div>
+            <div class="search_home">
+                <button class="home">
+                    <i class="fa fa-home " style="font-size: 25px; color: white;"></i>
+                </button>
+                <div class="search">
+                    <i class="fa fa-search " style="font-size:28px;color: aliceblue;"></i>
+                    <input type="text" name="" id="text" placeholder="What do you want to play?">
+                    <i class="fas fa-book" style="font-size:28px;color: aliceblue;margin-left: 20px;"></i>
+                </div>
+            </div>
+            <div class="log_sig">
+                <button class="Sign">Sign up</button>
+                <button>Log in</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="left basbg">
+                <div class="head_liabrary">
+                    <div class="library">
+                        <i class="fa-solid fa-book-open " style="color: gray; font-size: 20px;"></i>
+                        <p style="color: gray; font-size: 20px;">Your library</p>
+                    </div>
+                    <button class="Plus" style="font-size: 20px; color: gray;">
+                        +
+                    </button>
+                </div>
+                <div class="scroll color">
+                    <div class="playlist">
+                        <h4>Creat your first playlist</h4>
+                        <p>It's easy we'll help you</p>
+                        <button>Creat playlist</button>
+                    </div>
+                    <div class="podcast">
+                        <h4>Let's find some podcast to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcast</button>
+                    </div>
+                </div>
+                <div class="leftfoot color ">
+                    <p>Legal</p>
+                    <p>Safty & Privacy Center</p>
+                    <p>Privacy Policy</p>
+                    <p>Cookies</p>
+                    <p>About Ads</p>
+                    <p>Accessibilty</p>
+                </div>
+                <button class="language">
+                    <i class="fa fa-globe"></i>English
+                </button>
+            </div>
+            <div class="right basbg color">
+                <div class="right_container color">
+                    <div class="artist cardp">
+                        <div class="top">
+                            <a class="f1" href="#">Popular artist</a>
+                            <a class="f2" href="#">Show all</a>
+                        </div>
+                        <div class="main">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="image" src="Artists/size_m_1716815534.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="image" src="Artists/sachin.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Sachin-Jingar</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="image" src="Artists/arijit.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Arijit Singh</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="image" src="Artists/ar.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">A.R. Rahman</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="image" src="Artists/ani.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Anirudh Ravichandra</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="album cardp">
+                        <div class="top">
+                            <a class="f1" href="#">Popular albums</a>
+                            <a class="f2" href="#">Show all</a>
+                        </div>
+                        <div class="main">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="Album/aashiqui.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Aashiqui 2</h5>
+                                </a>
+                                <p>Artists name</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="Album/download.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Yo Yo Honey Singh</h5>
+                                </a>
+                                <p>Artists name</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="Album/jo.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Jo Tum Mere Ho</h5>
+                                </a>
+                                <p>Artists name</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="Album/mm.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Making Memories</h5>
+                                </a>
+                                <p>Artists name</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="Album/yj.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color wrap" href="#">
+                                    <h5 style="font-size: 15px;"> <a class="color" href="#">Ye Javani Hai diwani</h5>
+                                </a>
+                                </a>
+                                <p>Artists name</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="radio cardp">
+                        <div class="top">
+                            <a class="f1" href="#">Popular artist</a>
+                            <a class="f2" href="#">Show all</a>
+                        </div>
+                        <div class="main">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart cardp">
+                        <div class="top">
+                            <a class="f1" href="#">Popular artist</a>
+                            <a class="f2" href="#">Show all</a>
+                        </div>
+                        <div class="main">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="editor cardp">
+                        <div class="top">
+                            <a class="f1" href="#">Popular artist</a>
+                            <a class="f2" href="#">Show all</a>
+                        </div>
+                        <div class="main">
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                            <div class="card">
+                                <a href="#">
+                                    <img class="imagee" src="pic.jpg" width="150vw" alt="">
+                                </a>
+                                <a class="color" href="#">
+                                    <h5 style="font-size: 15px;">Pritam</h5>
+                                </a>
+                                <p>Artist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="last color">
+        <div class="latext">
+            <p>Preview of spotify</p>
+            <p>Sign up to get unlimited songs and podcast with occasional ads. <b> No credit card needed</b></p>
+        </div>
+        <button>Sign up free</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
